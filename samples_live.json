@@ -1,0 +1,1091 @@
+﻿{
+    "health":  {
+                   "status":  "ok"
+               },
+    "jobs_ingest":  {
+                        "fetched_records":  991,
+                        "inserted_records":  991,
+                        "processed_rows":  26757,
+                        "updated_at":  "2026-04-02T11:13:20.354878"
+                    },
+    "jobs_train":  {
+                       "run_id":  "e394f58b-08b0-4cfe-8fff-655d5fe52a9b",
+                       "run_tag":  "202604",
+                       "started_at":  "2026-04-02T11:13:20.732749+00:00",
+                       "finished_at":  "2026-04-02T11:13:31.341348+00:00",
+                       "duration_seconds":  10.608599,
+                       "status":  "success",
+                       "dataset_rows":  26757,
+                       "scaler_path":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\scalers\\preprocessor_202604.pkl",
+                       "model_paths":  {
+                                           "anomaly_detection":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\anomaly_detection_202604.pkl",
+                                           "root_cause_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\root_cause_clustering_202604.pkl",
+                                           "volume_forecast":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\volume_forecast_202604.pkl",
+                                           "partner_health":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_health_202604.pkl",
+                                           "dynamic_error_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\dynamic_error_clustering_202604.pkl",
+                                           "adaptive_thresholding":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\adaptive_thresholding_202604.pkl",
+                                           "partner_behavior":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_behavior_202604.pkl",
+                                           "capacity_planning":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\capacity_planning_202604.pkl"
+                                       },
+                       "metrics":  {
+                                       "anomaly_samples":  26757.0,
+                                       "root_cause_inertia":  24363.12728597285,
+                                       "volume_r2":  0.014705882352941346,
+                                       "capacity_r2":  null
+                                   }
+                   },
+    "training_registry":  {
+                              "runs":  [
+                                           {
+                                               "run_id":  "4bcf1d18-7a04-43d5-86e8-440e830feefb",
+                                               "run_tag":  "202604",
+                                               "started_at":  "2026-04-02T07:26:15.091881+00:00",
+                                               "finished_at":  "2026-04-02T07:26:17.495326+00:00",
+                                               "duration_seconds":  2.403445,
+                                               "status":  "success",
+                                               "dataset_rows":  991,
+                                               "scaler_path":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\scalers\\preprocessor_202604.pkl",
+                                               "model_paths":  {
+                                                                   "anomaly_detection":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\anomaly_detection_202604.pkl",
+                                                                   "root_cause_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\root_cause_clustering_202604.pkl",
+                                                                   "volume_forecast":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\volume_forecast_202604.pkl",
+                                                                   "partner_health":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_health_202604.pkl",
+                                                                   "dynamic_error_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\dynamic_error_clustering_202604.pkl",
+                                                                   "adaptive_thresholding":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\adaptive_thresholding_202604.pkl",
+                                                                   "partner_behavior":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_behavior_202604.pkl",
+                                                                   "capacity_planning":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\capacity_planning_202604.pkl"
+                                                               },
+                                               "metrics":  {
+                                                               "anomaly_samples":  991.0,
+                                                               "root_cause_inertia":  215.07632137622994,
+                                                               "volume_r2":  null,
+                                                               "capacity_r2":  null
+                                                           }
+                                           },
+                                           {
+                                               "run_id":  "e394f58b-08b0-4cfe-8fff-655d5fe52a9b",
+                                               "run_tag":  "202604",
+                                               "started_at":  "2026-04-02T11:13:20.732749+00:00",
+                                               "finished_at":  "2026-04-02T11:13:31.341348+00:00",
+                                               "duration_seconds":  10.608599,
+                                               "status":  "success",
+                                               "dataset_rows":  26757,
+                                               "scaler_path":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\scalers\\preprocessor_202604.pkl",
+                                               "model_paths":  {
+                                                                   "anomaly_detection":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\anomaly_detection_202604.pkl",
+                                                                   "root_cause_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\root_cause_clustering_202604.pkl",
+                                                                   "volume_forecast":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\volume_forecast_202604.pkl",
+                                                                   "partner_health":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_health_202604.pkl",
+                                                                   "dynamic_error_clustering":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\dynamic_error_clustering_202604.pkl",
+                                                                   "adaptive_thresholding":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\adaptive_thresholding_202604.pkl",
+                                                                   "partner_behavior":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_behavior_202604.pkl",
+                                                                   "capacity_planning":  "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\capacity_planning_202604.pkl"
+                                                               },
+                                               "metrics":  {
+                                                               "anomaly_samples":  26757.0,
+                                                               "root_cause_inertia":  24363.12728597285,
+                                                               "volume_r2":  0.014705882352941346,
+                                                               "capacity_r2":  null
+                                                           }
+                                           }
+                                       ]
+                          },
+    "anomaly":  {
+                    "insight":  "anomaly_detection",
+                    "generated_at":  "2026-04-02T11:13:31.421973+00:00",
+                    "model_ready":  true,
+                    "model_version":  "202604",
+                    "status":  "ok",
+                    "anomaly_ratio":  0.05953582240161453,
+                    "anomaly_ratio_overall":  0.05953582240161453,
+                    "anomaly_by_error_type":  [
+                                                  {
+                                                      "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); There is no article de",
+                                                      "total_records":  567,
+                                                      "anomaly_count":  567,
+                                                      "anomaly_ratio":  1.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Required field \u0026 is missing in segment \u0026; Error during creation of int",
+                                                      "total_records":  486,
+                                                      "anomaly_count":  486,
+                                                      "anomaly_ratio":  1.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Enter description for language \u00261; The data contains error, you cannot",
+                                                      "total_records":  243,
+                                                      "anomaly_count":  243,
+                                                      "anomaly_ratio":  1.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Purchase order type \u0027\u0026\u0027 is not defined",
+                                                      "total_records":  162,
+                                                      "anomaly_count":  162,
+                                                      "anomaly_ratio":  1.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Could not find code page for receiving system",
+                                                      "total_records":  810,
+                                                      "anomaly_count":  135,
+                                                      "anomaly_ratio":  0.16666666666666666
+                                                  },
+                                                  {
+                                                      "error_name":  "Make an entry in field \"\u00261\"; The data contains error, you cannot save;",
+                                                      "total_records":  9477,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Account category \u00261 does not support cost elements; Account category \u0026",
+                                                      "total_records":  7533,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No global company code is assigned to the company code \u0026",
+                                                      "total_records":  2538,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Entry in outbound table not found",
+                                                      "total_records":  1107,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Error during creation of a payment request",
+                                                      "total_records":  999,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "The material number for item \u0026 could not be identified",
+                                                      "total_records":  891,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No pricing procedure could be determined",
+                                                      "total_records":  594,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Enter a valid Address Number",
+                                                      "total_records":  297,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Field \u00261: Value \u00262 not allowed; The data contains error, you cannot sa",
+                                                      "total_records":  135,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Material \u00261 has status: \u00262",
+                                                      "total_records":  135,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "\u00261 No internal account found: \u00262 \u00263 \u00264; Error during creation of inter",
+                                                      "total_records":  81,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Material \u00261 has status: \u00262; Eintrag \u0026 \u0026 \u0026  nicht vorhanden in \u00264 (Ãber",
+                                                      "total_records":  81,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "The material number for item \u0026 could not be identified; Status zurÃ¼ckg",
+                                                      "total_records":  81,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); Control data in IDoc \u0026",
+                                                      "total_records":  54,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Segment \u00261 is missing; the segment can contain important information;",
+                                                      "total_records":  54,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Chart of accounts \u0026 not defined; Chart of accounts \u0026 not defined; Stat",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Corporate group account \u00261 not defined in group chart of accounts \u00262;",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Enter a valid Address Number; \u00261\u00262\u00263\u00264\u00265\u00266\u00267\u00268",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Entry in outbound table not found; Entry in outbound table not found;",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); The material number fo",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Material \u00261 has status: \u00262; Material \u00261 has status: \u00262; Material \u00261 ha",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Material \u00261 is not defined for sales org.\u00262,  distr.chan.\u00263,  language",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No global company code is assigned to the company code \u0026; Dem Buchungs",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No global company code is assigned to the company code \u0026; No global co",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No pricing procedure could be determined; Eintrag \u0026 \u0026 \u0026  nicht vorhand",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "No pricing procedure could be determined; Status zurÃ¼ckgesetzt nach de",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "Partner function \u00261 is not created",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "The material number for item \u0026 could not be identified; Status reset a",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "The material number for item \u0026 could not be identified; The material n",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "The postal code \u00261 must have a length of \u00262 or \u00263",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  },
+                                                  {
+                                                      "error_name":  "UNKNOWN_ERROR",
+                                                      "total_records":  27,
+                                                      "anomaly_count":  0,
+                                                      "anomaly_ratio":  0.0
+                                                  }
+                                              ]
+                },
+    "root_cause":  {
+                       "insight":  "root_cause_clustering",
+                       "generated_at":  "2026-04-02T11:13:33.233367+00:00",
+                       "model_ready":  true,
+                       "model_version":  "202604",
+                       "status":  "ok",
+                       "clusters":  {
+                                        "0":  9855,
+                                        "3":  7587,
+                                        "2":  2592,
+                                        "1":  1971,
+                                        "4":  1620,
+                                        "6":  1161,
+                                        "5":  1134,
+                                        "7":  837
+                                    }
+                   },
+    "volume_hour":  {
+                        "insight":  "volume_forecast",
+                        "generated_at":  "2026-04-02T11:13:35.289499+00:00",
+                        "model_ready":  true,
+                        "model_version":  "202604",
+                        "status":  "ok",
+                        "requested_period":  "hour",
+                        "forecast_start":  "2026-04-02T12:00:00+00:00",
+                        "forecast_end":  "2026-04-02T13:00:00+00:00",
+                        "predicted_volume":  991.0,
+                        "forecast_by_error_type":  [
+                                                       {
+                                                           "error_name":  "Make an entry in field \"\u00261\"; The data contains error, you cannot save;",
+                                                           "historical_count":  9477,
+                                                           "historical_share":  0.35418768920282545,
+                                                           "predicted_volume":  351.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Account category \u00261 does not support cost elements; Account category \u0026",
+                                                           "historical_count":  7533,
+                                                           "historical_share":  0.2815338042381433,
+                                                           "predicted_volume":  279.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026",
+                                                           "historical_count":  2538,
+                                                           "historical_share":  0.09485368314833502,
+                                                           "predicted_volume":  94.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Entry in outbound table not found",
+                                                           "historical_count":  1107,
+                                                           "historical_share":  0.04137235116044399,
+                                                           "predicted_volume":  41.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Error during creation of a payment request",
+                                                           "historical_count":  999,
+                                                           "historical_share":  0.03733602421796166,
+                                                           "predicted_volume":  37.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified",
+                                                           "historical_count":  891,
+                                                           "historical_share":  0.033299697275479316,
+                                                           "predicted_volume":  33.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Could not find code page for receiving system",
+                                                           "historical_count":  810,
+                                                           "historical_share":  0.030272452068617558,
+                                                           "predicted_volume":  30.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined",
+                                                           "historical_count":  594,
+                                                           "historical_share":  0.022199798183652877,
+                                                           "predicted_volume":  22.0
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); There is no article de",
+                                                           "historical_count":  567,
+                                                           "historical_share":  0.02119071644803229,
+                                                           "predicted_volume":  21.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Required field \u0026 is missing in segment \u0026; Error during creation of int",
+                                                           "historical_count":  486,
+                                                           "historical_share":  0.018163471241170535,
+                                                           "predicted_volume":  18.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter a valid Address Number",
+                                                           "historical_count":  297,
+                                                           "historical_share":  0.011099899091826439,
+                                                           "predicted_volume":  11.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter description for language \u00261; The data contains error, you cannot",
+                                                           "historical_count":  243,
+                                                           "historical_share":  0.009081735620585268,
+                                                           "predicted_volume":  9.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Purchase order type \u0027\u0026\u0027 is not defined",
+                                                           "historical_count":  162,
+                                                           "historical_share":  0.006054490413723511,
+                                                           "predicted_volume":  6.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Field \u00261: Value \u00262 not allowed; The data contains error, you cannot sa",
+                                                           "historical_count":  135,
+                                                           "historical_share":  0.005045408678102927,
+                                                           "predicted_volume":  5.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262",
+                                                           "historical_count":  135,
+                                                           "historical_share":  0.005045408678102927,
+                                                           "predicted_volume":  5.0
+                                                       },
+                                                       {
+                                                           "error_name":  "\u00261 No internal account found: \u00262 \u00263 \u00264; Error during creation of inter",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  3.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262; Eintrag \u0026 \u0026 \u0026  nicht vorhanden in \u00264 (Ãber",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  3.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; Status zurÃ¼ckg",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  3.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Segment \u00261 is missing; the segment can contain important information;",
+                                                           "historical_count":  54,
+                                                           "historical_share":  0.0020181634712411706,
+                                                           "predicted_volume":  2.0
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); Control data in IDoc \u0026",
+                                                           "historical_count":  54,
+                                                           "historical_share":  0.0020181634712411706,
+                                                           "predicted_volume":  2.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Corporate group account \u00261 not defined in group chart of accounts \u00262;",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Entry in outbound table not found; Entry in outbound table not found;",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The postal code \u00261 must have a length of \u00262 or \u00263",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter a valid Address Number; \u00261\u00262\u00263\u00264\u00265\u00266\u00267\u00268",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 is not defined for sales org.\u00262,  distr.chan.\u00263,  language",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Partner function \u00261 is not created",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; The material n",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); The material number fo",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; Status reset a",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined; Eintrag \u0026 \u0026 \u0026  nicht vorhand",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined; Status zurÃ¼ckgesetzt nach de",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262; Material \u00261 has status: \u00262; Material \u00261 ha",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026; No global co",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "UNKNOWN_ERROR",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Chart of accounts \u0026 not defined; Chart of accounts \u0026 not defined; Stat",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026; Dem Buchungs",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  1.0
+                                                       }
+                                                   ],
+                        "next_hour_volume":  991.0
+                    },
+    "volume_week":  {
+                        "insight":  "volume_forecast",
+                        "generated_at":  "2026-04-02T11:13:35.982007+00:00",
+                        "model_ready":  true,
+                        "model_version":  "202604",
+                        "status":  "ok",
+                        "requested_period":  "week",
+                        "forecast_start":  "2026-04-10T00:00:00+00:00",
+                        "forecast_end":  "2026-04-17T00:00:00+00:00",
+                        "predicted_volume":  166488.0,
+                        "forecast_by_error_type":  [
+                                                       {
+                                                           "error_name":  "Make an entry in field \"\u00261\"; The data contains error, you cannot save;",
+                                                           "historical_count":  9477,
+                                                           "historical_share":  0.35418768920282545,
+                                                           "predicted_volume":  58968.00000000001
+                                                       },
+                                                       {
+                                                           "error_name":  "Account category \u00261 does not support cost elements; Account category \u0026",
+                                                           "historical_count":  7533,
+                                                           "historical_share":  0.2815338042381433,
+                                                           "predicted_volume":  46872.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026",
+                                                           "historical_count":  2538,
+                                                           "historical_share":  0.09485368314833502,
+                                                           "predicted_volume":  15792.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Entry in outbound table not found",
+                                                           "historical_count":  1107,
+                                                           "historical_share":  0.04137235116044399,
+                                                           "predicted_volume":  6887.999999999999
+                                                       },
+                                                       {
+                                                           "error_name":  "Error during creation of a payment request",
+                                                           "historical_count":  999,
+                                                           "historical_share":  0.03733602421796166,
+                                                           "predicted_volume":  6216.000000000001
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified",
+                                                           "historical_count":  891,
+                                                           "historical_share":  0.033299697275479316,
+                                                           "predicted_volume":  5544.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Could not find code page for receiving system",
+                                                           "historical_count":  810,
+                                                           "historical_share":  0.030272452068617558,
+                                                           "predicted_volume":  5040.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined",
+                                                           "historical_count":  594,
+                                                           "historical_share":  0.022199798183652877,
+                                                           "predicted_volume":  3696.0000000000005
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); There is no article de",
+                                                           "historical_count":  567,
+                                                           "historical_share":  0.02119071644803229,
+                                                           "predicted_volume":  3528.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Required field \u0026 is missing in segment \u0026; Error during creation of int",
+                                                           "historical_count":  486,
+                                                           "historical_share":  0.018163471241170535,
+                                                           "predicted_volume":  3024.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter a valid Address Number",
+                                                           "historical_count":  297,
+                                                           "historical_share":  0.011099899091826439,
+                                                           "predicted_volume":  1848.0000000000002
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter description for language \u00261; The data contains error, you cannot",
+                                                           "historical_count":  243,
+                                                           "historical_share":  0.009081735620585268,
+                                                           "predicted_volume":  1512.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Purchase order type \u0027\u0026\u0027 is not defined",
+                                                           "historical_count":  162,
+                                                           "historical_share":  0.006054490413723511,
+                                                           "predicted_volume":  1007.9999999999999
+                                                       },
+                                                       {
+                                                           "error_name":  "Field \u00261: Value \u00262 not allowed; The data contains error, you cannot sa",
+                                                           "historical_count":  135,
+                                                           "historical_share":  0.005045408678102927,
+                                                           "predicted_volume":  840.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262",
+                                                           "historical_count":  135,
+                                                           "historical_share":  0.005045408678102927,
+                                                           "predicted_volume":  840.0
+                                                       },
+                                                       {
+                                                           "error_name":  "\u00261 No internal account found: \u00262 \u00263 \u00264; Error during creation of inter",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  503.99999999999994
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262; Eintrag \u0026 \u0026 \u0026  nicht vorhanden in \u00264 (Ãber",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  503.99999999999994
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; Status zurÃ¼ckg",
+                                                           "historical_count":  81,
+                                                           "historical_share":  0.0030272452068617556,
+                                                           "predicted_volume":  503.99999999999994
+                                                       },
+                                                       {
+                                                           "error_name":  "Segment \u00261 is missing; the segment can contain important information;",
+                                                           "historical_count":  54,
+                                                           "historical_share":  0.0020181634712411706,
+                                                           "predicted_volume":  336.0
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); Control data in IDoc \u0026",
+                                                           "historical_count":  54,
+                                                           "historical_share":  0.0020181634712411706,
+                                                           "predicted_volume":  336.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Corporate group account \u00261 not defined in group chart of accounts \u00262;",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Entry in outbound table not found; Entry in outbound table not found;",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The postal code \u00261 must have a length of \u00262 or \u00263",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Enter a valid Address Number; \u00261\u00262\u00263\u00264\u00265\u00266\u00267\u00268",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 is not defined for sales org.\u00262,  distr.chan.\u00263,  language",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Partner function \u00261 is not created",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; The material n",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); The material number fo",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "The material number for item \u0026 could not be identified; Status reset a",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined; Eintrag \u0026 \u0026 \u0026  nicht vorhand",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No pricing procedure could be determined; Status zurÃ¼ckgesetzt nach de",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Material \u00261 has status: \u00262; Material \u00261 has status: \u00262; Material \u00261 ha",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026; No global co",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "UNKNOWN_ERROR",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "Chart of accounts \u0026 not defined; Chart of accounts \u0026 not defined; Stat",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       },
+                                                       {
+                                                           "error_name":  "No global company code is assigned to the company code \u0026; Dem Buchungs",
+                                                           "historical_count":  27,
+                                                           "historical_share":  0.0010090817356205853,
+                                                           "predicted_volume":  168.0
+                                                       }
+                                                   ]
+                    },
+    "partner_health":  {
+                           "insight":  "partner_health",
+                           "generated_at":  "2026-04-02T11:13:36.761943+00:00",
+                           "model_ready":  true,
+                           "model_version":  "202604",
+                           "status":  "ok",
+                           "partners":  [
+                                            {
+                                                "receiver":  "1000002",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  73,
+                                                "health_score":  49.49585635359116
+                                            },
+                                            {
+                                                "receiver":  "1710001",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  43,
+                                                "health_score":  49.70303867403315
+                                            },
+                                            {
+                                                "receiver":  "S09CLNT100",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  49,
+                                                "health_score":  49.66160220994475
+                                            },
+                                            {
+                                                "receiver":  "S09_100",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  2,
+                                                "health_score":  49.98618784530387
+                                            },
+                                            {
+                                                "receiver":  "S47CLNT100",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  5,
+                                                "health_score":  49.96546961325967
+                                            },
+                                            {
+                                                "receiver":  "S89CLNT100",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  26,
+                                                "health_score":  49.82044198895028
+                                            },
+                                            {
+                                                "receiver":  "S89CLNT200",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  69,
+                                                "health_score":  49.523480662983424
+                                            },
+                                            {
+                                                "receiver":  "S89_200",
+                                                "failure_rate":  1.0,
+                                                "avg_process_time":  0.0,
+                                                "volume":  724,
+                                                "health_score":  45.0
+                                            }
+                                        ]
+                       },
+    "dynamic_error":  {
+                          "insight":  "dynamic_error_clustering",
+                          "generated_at":  "2026-04-02T11:13:36.806061+00:00",
+                          "model_ready":  true,
+                          "model_version":  "202604",
+                          "status":  "ok",
+                          "cluster_strategy":  "one_cluster_per_unique_error",
+                          "total_error_types":  36,
+                          "error_clusters":  [
+                                                 {
+                                                     "error_name":  "Make an entry in field \"\u00261\"; The data contains error, you cannot save;",
+                                                     "count":  9477
+                                                 },
+                                                 {
+                                                     "error_name":  "Account category \u00261 does not support cost elements; Account category \u0026",
+                                                     "count":  7533
+                                                 },
+                                                 {
+                                                     "error_name":  "No global company code is assigned to the company code \u0026",
+                                                     "count":  2538
+                                                 },
+                                                 {
+                                                     "error_name":  "Entry in outbound table not found",
+                                                     "count":  1107
+                                                 },
+                                                 {
+                                                     "error_name":  "Error during creation of a payment request",
+                                                     "count":  999
+                                                 },
+                                                 {
+                                                     "error_name":  "The material number for item \u0026 could not be identified",
+                                                     "count":  891
+                                                 },
+                                                 {
+                                                     "error_name":  "Could not find code page for receiving system",
+                                                     "count":  810
+                                                 },
+                                                 {
+                                                     "error_name":  "No pricing procedure could be determined",
+                                                     "count":  594
+                                                 },
+                                                 {
+                                                     "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); There is no article de",
+                                                     "count":  567
+                                                 },
+                                                 {
+                                                     "error_name":  "Required field \u0026 is missing in segment \u0026; Error during creation of int",
+                                                     "count":  486
+                                                 },
+                                                 {
+                                                     "error_name":  "Enter a valid Address Number",
+                                                     "count":  297
+                                                 },
+                                                 {
+                                                     "error_name":  "Enter description for language \u00261; The data contains error, you cannot",
+                                                     "count":  243
+                                                 },
+                                                 {
+                                                     "error_name":  "Purchase order type \u0027\u0026\u0027 is not defined",
+                                                     "count":  162
+                                                 },
+                                                 {
+                                                     "error_name":  "Field \u00261: Value \u00262 not allowed; The data contains error, you cannot sa",
+                                                     "count":  135
+                                                 },
+                                                 {
+                                                     "error_name":  "Material \u00261 has status: \u00262",
+                                                     "count":  135
+                                                 },
+                                                 {
+                                                     "error_name":  "\u00261 No internal account found: \u00262 \u00263 \u00264; Error during creation of inter",
+                                                     "count":  81
+                                                 },
+                                                 {
+                                                     "error_name":  "Material \u00261 has status: \u00262; Eintrag \u0026 \u0026 \u0026  nicht vorhanden in \u00264 (Ãber",
+                                                     "count":  81
+                                                 },
+                                                 {
+                                                     "error_name":  "The material number for item \u0026 could not be identified; Status zurÃ¼ckg",
+                                                     "count":  81
+                                                 },
+                                                 {
+                                                     "error_name":  "Segment \u00261 is missing; the segment can contain important information;",
+                                                     "count":  54
+                                                 },
+                                                 {
+                                                     "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); Control data in IDoc \u0026",
+                                                     "count":  54
+                                                 },
+                                                 {
+                                                     "error_name":  "Corporate group account \u00261 not defined in group chart of accounts \u00262;",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Entry in outbound table not found; Entry in outbound table not found;",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "The postal code \u00261 must have a length of \u00262 or \u00263",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Enter a valid Address Number; \u00261\u00262\u00263\u00264\u00265\u00266\u00267\u00268",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Material \u00261 is not defined for sales org.\u00262,  distr.chan.\u00263,  language",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Partner function \u00261 is not created",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "The material number for item \u0026 could not be identified; The material n",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "ISO unit of measure \u0026 is not assigned (item \u0026); The material number fo",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "The material number for item \u0026 could not be identified; Status reset a",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "No pricing procedure could be determined; Eintrag \u0026 \u0026 \u0026  nicht vorhand",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "No pricing procedure could be determined; Status zurÃ¼ckgesetzt nach de",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Material \u00261 has status: \u00262; Material \u00261 has status: \u00262; Material \u00261 ha",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "No global company code is assigned to the company code \u0026; No global co",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "UNKNOWN_ERROR",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "Chart of accounts \u0026 not defined; Chart of accounts \u0026 not defined; Stat",
+                                                     "count":  27
+                                                 },
+                                                 {
+                                                     "error_name":  "No global company code is assigned to the company code \u0026; Dem Buchungs",
+                                                     "count":  27
+                                                 }
+                                             ]
+                      },
+    "adaptive_thresholding":  {
+                                  "insight":  "adaptive_thresholding",
+                                  "generated_at":  "2026-04-02T11:13:37.537042+00:00",
+                                  "model_ready":  true,
+                                  "model_version":  "202604",
+                                  "status":  "ok",
+                                  "current_failure_rate":  1.0,
+                                  "adaptive_threshold":  1.0,
+                                  "breach":  false
+                              },
+    "partner_behavior":  {
+                             "insight":  "partner_behavior",
+                             "generated_at":  "2026-04-02T11:13:38.185639+00:00",
+                             "model_ready":  true,
+                             "model_version":  "202604",
+                             "status":  "ok",
+                             "partner_behavior":  [
+                                                      {
+                                                          "receiver":  "1000002",
+                                                          "avg_hourly_volume":  73,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "1710001",
+                                                          "avg_hourly_volume":  43,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S09CLNT100",
+                                                          "avg_hourly_volume":  49,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S09_100",
+                                                          "avg_hourly_volume":  2,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S47CLNT100",
+                                                          "avg_hourly_volume":  5,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S89CLNT100",
+                                                          "avg_hourly_volume":  26,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S89CLNT200",
+                                                          "avg_hourly_volume":  69,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      },
+                                                      {
+                                                          "receiver":  "S89_200",
+                                                          "avg_hourly_volume":  724,
+                                                          "failure_rate":  1.0,
+                                                          "avg_process_time":  0.0
+                                                      }
+                                                  ]
+                         },
+    "capacity_planning":  {
+                              "insight":  "capacity_planning",
+                              "generated_at":  "2026-04-02T11:13:38.203373+00:00",
+                              "model_ready":  true,
+                              "model_version":  "202604",
+                              "status":  "ok",
+                              "next_day_capacity":  991.0
+                          }
+}

@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "run_id": "4bcf1d18-7a04-43d5-86e8-440e830feefb",
+      "run_tag": "202604",
+      "started_at": "2026-04-02T07:26:15.091881+00:00",
+      "finished_at": "2026-04-02T07:26:17.495326+00:00",
+      "duration_seconds": 2.403445,
+      "status": "success",
+      "dataset_rows": 991,
+      "scaler_path": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\scalers\\preprocessor_202604.pkl",
+      "model_paths": {
+        "anomaly_detection": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\anomaly_detection_202604.pkl",
+        "root_cause_clustering": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\root_cause_clustering_202604.pkl",
+        "volume_forecast": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\volume_forecast_202604.pkl",
+        "partner_health": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_health_202604.pkl",
+        "dynamic_error_clustering": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\dynamic_error_clustering_202604.pkl",
+        "adaptive_thresholding": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\adaptive_thresholding_202604.pkl",
+        "partner_behavior": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_behavior_202604.pkl",
+        "capacity_planning": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\capacity_planning_202604.pkl"
+      },
+      "metrics": {
+        "anomaly_samples": 991.0,
+        "root_cause_inertia": 215.07632137622994,
+        "volume_r2": NaN,
+        "capacity_r2": NaN
+      }
+    },
+    {
+      "run_id": "e394f58b-08b0-4cfe-8fff-655d5fe52a9b",
+      "run_tag": "202604",
+      "started_at": "2026-04-02T11:13:20.732749+00:00",
+      "finished_at": "2026-04-02T11:13:31.341348+00:00",
+      "duration_seconds": 10.608599,
+      "status": "success",
+      "dataset_rows": 26757,
+      "scaler_path": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\scalers\\preprocessor_202604.pkl",
+      "model_paths": {
+        "anomaly_detection": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\anomaly_detection_202604.pkl",
+        "root_cause_clustering": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\root_cause_clustering_202604.pkl",
+        "volume_forecast": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\volume_forecast_202604.pkl",
+        "partner_health": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_health_202604.pkl",
+        "dynamic_error_clustering": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\dynamic_error_clustering_202604.pkl",
+        "adaptive_thresholding": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\adaptive_thresholding_202604.pkl",
+        "partner_behavior": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\partner_behavior_202604.pkl",
+        "capacity_planning": "C:\\Users\\10829029\\OneDrive - LTIMindtree\\Desktop\\IDOC ML\\artifacts\\models\\capacity_planning_202604.pkl"
+      },
+      "metrics": {
+        "anomaly_samples": 26757.0,
+        "root_cause_inertia": 24363.12728597285,
+        "volume_r2": 0.014705882352941346,
+        "capacity_r2": NaN
+      }
+    }
+  ]
+}
